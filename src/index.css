@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+@layer utilities {
+  @keyframes fall {
+    0% {
+      transform: translateY(-10vh);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(100vh);
+      opacity: 1;
+    }
+  }
+
+  .animate-fall {
+    animation: fall linear infinite;
+  }
+}
