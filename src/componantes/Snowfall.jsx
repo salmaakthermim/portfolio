@@ -5,7 +5,7 @@ const Snowfall = () => {
         {Array.from({ length: 50 }).map((_, index) => (
           <div
             key={index}
-            className="snowflake absolute bg-white w-2 h-2 rounded-full opacity-70 animate-fall"
+            className="snowflake absolute bg-gray-500 w-2 h-2 rounded-full opacity-70 animate-fall"
             style={{
               left: `${Math.random() * 100}vw`,
               animationDelay: `${Math.random() * 5}s`,

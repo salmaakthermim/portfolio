@@ -29,7 +29,7 @@ export default function Hero() {
 
                     {/* Title */}
                     <h1 className="text-5xl md:text-7xl font-bold text-white mt-6">
-                        <span className="">Frontend</span>{" "}
+                        <span className="text-gray-500">Frontend</span>{" "}
                         <br />
                         <span className="text-purple-500">Developer</span>
                     </h1>
@@ -44,7 +44,7 @@ export default function Hero() {
                     />
 
                     {/* Description */}
-                    <p className="mt-4 text-gray-300 text-2xl">
+                    <p className="mt-4 text-gray-500 text-2xl">
                         Crafting innovative, functional, and user-friendly websites for seamless digital solutions.
                     </p>
 
@@ -95,7 +95,7 @@ export default function Hero() {
                         rel="noopener noreferrer"
                         whileHover={{ scale: 1.2 }}
                         whileTap={{ scale: 0.9 }}
-                        className="w-14 h-14 flex items-center justify-center rounded-xl bg-white/10 backdrop-blur-md text-gray-300 text-2xl transition hover:text-white"
+                        className="w-14 h-14 flex items-center justify-center rounded-xl bg-white/10 backdrop-blur-md text-gray-500 text-2xl transition hover:text-white"
                     >
                         {item.icon}
                     </motion.a>
